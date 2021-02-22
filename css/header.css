@@ -13,3 +13,32 @@
     line-height: 22px;
     color: #EBEBEB;
 }
+.nav-sub-item{
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+.sub-item{
+    padding: 0 24px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 268px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    color:#FFFFFF;
+}
+.sub-item .icon{
+    Width: 5.19px;
+    Height: 8.01px;
+    left: 91.79%;
+    right: 6.27%;
+    top: 20%;
+    bottom: 69.99%;
+}
+.nav-item a:hover .nav-sub-item{
+    display: block;
+    /* opacity: 1; */
+}
